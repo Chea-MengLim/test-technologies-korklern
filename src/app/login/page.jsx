@@ -27,7 +27,6 @@ const LoginPage = () => {
   const handleSignWithGoogle = () => {
     // signIn("google", { callbackUrl: "/" });
     signIn("google");
-    
 
   }
 
