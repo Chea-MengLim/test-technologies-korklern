@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
 
-const FacebookShareButton = ({ url, quote }) => {
+const FacebookShareButton = () => {
   const appId = "860320866292919";
+  const url = "https://test-technologies-korklern.vercel.app";
+  const quote = "Check out this awesome event on KorkLern! 🎉";
 
   const handleShare = () => {
     const shareUrl = `https://www.facebook.com/dialog/share?app_id=${appId}&display=popup&href=${encodeURIComponent(
