@@ -9,7 +9,9 @@ const FacebookShareButton = () => {
   const handleShare = () => {
     const shareUrl = `https://www.facebook.com/dialog/share?app_id=${appId}&display=popup&href=${encodeURIComponent(
       url
-    )}&quote=${encodeURIComponent(quote)}&redirect_uri=${encodeURIComponent(url)}`;
+    )}&quote=${encodeURIComponent(quote)}&redirect_uri=${encodeURIComponent(
+      url
+    )}`;
 
     window.open(shareUrl, "_blank", "width=600,height=400");
   };
