@@ -11,6 +11,7 @@
   "dependencies": {
     "@stripe/react-stripe-js": "^3.6.0",
     "@stripe/stripe-js": "^7.2.0",
+    "html5-qrcode": "^2.3.8",
     "lodash": "^4.17.21",
     "next": "^15.3.1",
     "next-auth": "^4.24.11",
@@ -18,6 +19,7 @@
     "react-dom": "^18",
     "react-grid-layout": "^1.5.1",
     "react-hook-form": "^7.52.1",
+    "react-qr-code": "^2.0.15",
     "stripe": "^18.1.0"
   },
   "devDependencies": {
