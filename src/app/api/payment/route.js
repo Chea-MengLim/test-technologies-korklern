@@ -12,9 +12,9 @@ export async function POST(request) {
             automatic_payment_methods: {
                 enabled: true,
             },
-            transfer_data: {
-                destination: "acct_1RLH2gB28GjdxTpf", // your test connected account
-              },
+            // transfer_data: {
+            //     destination: "acct_1RLH2gB28GjdxTpf", // your test connected account
+            //   },
         });
 
         console.log("Payment Intent", paymentIntent);

@@ -5,15 +5,17 @@ import CheckoutPage from './components/CheckoutPage'
 import EventDetail from './components/EventDetail'
 import TicketQRCode from './components/TicketQRCode'
 import QRScanner from './components/QRScanner'
+import OrganizerPage from './organizer/organizer'
 
 const HomePage = () => {
   return (
     <div>
       {/* <Onboard/> */}
-      {/* <StripePaymentComponent/> */}
+      <StripePaymentComponent/>
       {/* <EventDetail/> */}
       {/* <TicketQRCode /> */}
-      <QRScanner />
+      {/* <QRScanner /> */}
+      <OrganizerPage />
     </div>
   )
 }
